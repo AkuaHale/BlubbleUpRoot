@@ -1,0 +1,25 @@
+<Alloy>
+	<TableView class="tableview-form" 
+		height="250" 
+		top="200"
+		left="10"
+		right="10"
+		backgroundColor="transparent">
+		<TableViewSection>
+			<FooterView>
+				<View height="100">
+					<Button class="actionButton" 
+						title="Blubble Up"
+						borderRadius="10"
+						height="50"
+						left="0"
+						right="0"
+						onClick="login"/>						
+				</View>
+			</FooterView>
+			<Widget src="ti.ux.forms.row.text" inputType="text" title="" hintText="Blubble Name" id="_blubbleNameTxtField" />
+			<Widget src="ti.ux.forms.row.text" inputType="email" title="" hintText="your@email.com" id="_emailTxtField" />				
+			<Widget src="ti.ux.forms.row.text" inputType="text" title="" hintText="Device Name" id="_deviceTxtField" />				
+		</TableViewSection>	
+	</TableView>		
+</Alloy>

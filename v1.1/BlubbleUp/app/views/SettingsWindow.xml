@@ -1,0 +1,13 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" id="_settingsWindow">
+		<View backgroundColor="#FFFFFF">
+			<View bottom="30" height="100">
+				<Button title="Add Profile Pic" borderRadius="10"
+					height="50"
+					left="0"
+					onClick="addProfilePic"/>						
+				<ImageView height="100" width="100" id="_profileImgView" image="/images/photos.png"></ImageView>
+			</View>
+		</View>
+	</Window>
+</Alloy>

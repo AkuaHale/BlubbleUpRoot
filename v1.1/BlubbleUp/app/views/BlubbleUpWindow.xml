@@ -1,0 +1,7 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" id="_blubbleUpWindow">
+		<View>
+			<Require type="widget" src="com.prodz.tiflexigrid" id="_itemGrid"/>		
+		</View>
+	</Window>
+</Alloy>

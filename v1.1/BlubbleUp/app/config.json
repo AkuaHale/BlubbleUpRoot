@@ -1,0 +1,29 @@
+{
+    "global": {
+        "appName": "BlubbleUp",
+        "theme": "default"
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {
+        "fontBold": "Avenir-Heavy",
+        "fontNormal": "Avenir-Light",
+        "fontLight": "Avenir-Light",
+        "fontItalic": "Avenir-LightOblique"
+    },
+    "os:mobileweb": {},
+    "dependencies": {
+        "ti.ux.iconfont": "1.0",
+        "ti.ux.forms.row.text": "1.0",
+        "ti.ux.forms.text": "1.0",
+        "ti.ux.forms.scrollableform": "1.0",
+        "ti.ux.alignview": "1.0",
+        "ti.ux.iconvalue": "1.0",
+        "ti.ux.iconbutton": "1.0",
+        "com.prodz.tiflexigrid": "1.0",
+        "ti.ux.popup": "1.0"
+    }
+}

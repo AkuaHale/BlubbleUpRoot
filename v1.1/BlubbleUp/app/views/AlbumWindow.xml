@@ -1,0 +1,10 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" id="_albumWindow">
+		<RightNavButton>
+			<Button image="/images/plus-32.png" id="_addBtn"/>			
+		</RightNavButton>
+		<View backgroundColor="#FFFFFF">
+			<Require type="widget" src="com.prodz.tiflexigrid" id="_itemGrid"/>	
+		</View>
+	</Window>
+</Alloy>

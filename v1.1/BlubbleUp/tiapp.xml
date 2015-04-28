@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.blubbleup.home</id>
+    <id>com.theta.blubbleup</id>
     <name>BlubbleUp</name>
     <version>1.0</version>
     <publisher>skamat</publisher>
-    <url>http://blubbleup.com</url>
-    <description>not specified</description>
-    <copyright>2014 by skamat</copyright>
+    <url>http://</url>
+    <description>undefined</description>
+    <copyright>2015 by skamat</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>a5b34454-712f-45e5-90a5-175e0c9d911a</guid>
+    <guid>2accc0b5-e85c-4e03-a2bf-66bdb42676de</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -47,14 +47,22 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules/>
+    <modules>
+        <module platform="iphone">ti.udp</module>
+        <module platform="iphone">ti.imagefactory</module>
+        <module platform="iphone">ti.mediapicker</module>
+        <module platform="iphone">ti.compression</module>
+        <module platform="iphone">ti.worker</module>
+    </modules>
     <deployment-targets>
-        <target device="android">false</target>
+        <target device="android">true</target>
         <target device="blackberry">false</target>
         <target device="ipad">true</target>
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
-        <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.2.2.GA</sdk-version>
+    <sdk-version>3.5.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
 </ti:app>

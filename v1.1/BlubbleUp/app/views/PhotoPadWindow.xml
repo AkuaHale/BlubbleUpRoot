@@ -1,0 +1,45 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" id="_photoPadWindow">
+		<RightNavButton>
+			<Button image="/images/plus-32.png" id="_addBtn"/>			
+		</RightNavButton>
+		<View backgroundColor="#FFFFFF">
+			<Require type="widget" src="com.prodz.tiflexigrid" id="_itemGrid"/>	
+		</View>
+	</Window>
+	<!-- HIDDEN POPUPS -->
+	<Widget src="ti.ux.popup" animation="" id="_albumPopup" 
+		platform="ios" 
+		closeButton="false"
+		top="40%"
+		height="120">
+		<TableView backgroundColor="transparent">
+			<TableViewSection>
+				<FooterView>
+					<View height="50">
+						<View height="40" top="10" width="125" layout="horizontal">
+							<Button class="actionButton" 
+								title="OK"
+								borderRadius="10"
+								height="40"
+								width="60"
+								onClick="done"/>														
+							<Button class="actionButton" 
+								title="Cancel"
+								borderRadius="10"
+							    left="5"
+								height="40"
+								width="60"
+								onClick="cancel"/>														
+						</View>
+					</View>
+				</FooterView>
+				<Widget src="ti.ux.forms.row.text" 
+					inputType="text" 
+					title="" 
+					hintText="Album Name" 
+					id="_albumNameTxtField" />											
+			</TableViewSection>
+		</TableView>
+	</Widget>
+</Alloy>

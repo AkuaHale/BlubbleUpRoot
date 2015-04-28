@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="mainView">
+		<View id="imgContainer">
+			<ImageView id="thumb" top="0"/>
+			<Label  id="title" bottom="0" height="10"/>
+		</View>	
+	</View>	
+</Alloy>

@@ -1,0 +1,5 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" navBarHidden="true" layout="vertical" id="win">
+		<Require src="Login" id="loginView"></Require>
+	</Window>
+</Alloy>

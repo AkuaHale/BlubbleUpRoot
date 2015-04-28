@@ -1,0 +1,5 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" id="_photoWindow">
+		<ScrollableView id="_sv" />
+	</Window>
+</Alloy>

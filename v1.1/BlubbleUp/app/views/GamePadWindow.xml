@@ -1,0 +1,6 @@
+<Alloy>
+	<Window backgroundColor="#4CAF50" fullscreen="true" id="_gamePadWindow">
+		<View backgroundColor="#FFFFFF">
+		</View>
+	</Window>
+</Alloy>
